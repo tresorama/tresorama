@@ -3,7 +3,7 @@ You could find useful these tools i made:
 ## Gradia
 
 > Create Multi-Layer CSS Gradients with ease, and export to pure CSS (or CSS-in-JS).  
-> [Open](https://regexer.dev/?ref=github)
+> [Open](https://gradia.app/?ref=github)
 
 <img width="600" alt="gradia" src="https://user-images.githubusercontent.com/47954700/213765289-fdaad04a-906b-4361-8c78-1709f357a131.png">
 
