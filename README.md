@@ -1,10 +1,20 @@
-### You could find useful this tools i made:
+You could find useful these tools i made:
 
-# Gradia
-<img width="1680" alt="gradia" src="https://user-images.githubusercontent.com/47954700/213765289-fdaad04a-906b-4361-8c78-1709f357a131.png">
+## Gradia
 
-# Regexer
-<img width="1402" alt="regexer" src="https://user-images.githubusercontent.com/47954700/213765361-f0c472a5-4e4b-4d7f-916c-bc97694a7b2f.png">
+> Create Multi-Layer CSS Gradients with ease, and export to pure CSS (or CSS-in-JS).  
+> [Open](https://regexer.dev/?ref=github)
+
+<img width="600" alt="gradia" src="https://user-images.githubusercontent.com/47954700/213765289-fdaad04a-906b-4361-8c78-1709f357a131.png">
+
+
+## Regexer
+
+> Generate Regex pattern asking in plain english!  
+> Or paste a regex and ask explanation or correction.  
+> [Open](https://regexer.dev/?ref=github)
+
+<img width="600" alt="regexer" src="https://user-images.githubusercontent.com/47954700/213765361-f0c472a5-4e4b-4d7f-916c-bc97694a7b2f.png">
 
 
 
