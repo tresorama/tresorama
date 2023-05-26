@@ -4,6 +4,8 @@ Web product builder, main stack: Next.js, Typescript, Tailwind, tRPC, Prisma.
 I write articles about developing at [dev.to](https://dev.to/tresorama) and [hashnode](https://tresorama.hashnode.dev/)  
 Open to job opportunities, feel free to contact me.
 
+Proudly contributed to [documentation upgrade of Chakra UI](https://github.com/chakra-ui/chakra-ui-docs/pull/1062)
+
 ## Currently building
 
 Multipurpose Dashboard template (inspired by Prime React)  
