@@ -1,20 +1,26 @@
-You could find useful these tools i made:
+# About Me
 
-## Gradia
+Web product builder, main stack: Next.js, Typescript, Tailwind, tRPC, Prisma.  
+Sometimes i write articles about developing at [dev.to](https://dev.to/tresorama) and [hashnode](https://tresorama.hashnode.dev/)
+
+## Small tools I made
+
+#### Gradia
 
 > Create Multi-Layer CSS Gradients with ease, and export to pure CSS (or CSS-in-JS).  
 > [Open](https://gradia.app/?ref=github)
 
-<img width="500" alt="gradia" src="https://user-images.githubusercontent.com/47954700/213765289-fdaad04a-906b-4361-8c78-1709f357a131.png">
+<img width="400" alt="gradia" src="https://user-images.githubusercontent.com/47954700/213765289-fdaad04a-906b-4361-8c78-1709f357a131.png">
 
 
-## Regexer
+#### Regexer
 
 > Generate Regex pattern asking in plain english!  
 > Or paste a regex and ask explanation or correction.  
+> Powered by AI!
 > [Open](https://regexer.dev/?ref=github)
 
-<img width="500" alt="regexer" src="https://user-images.githubusercontent.com/47954700/213765361-f0c472a5-4e4b-4d7f-916c-bc97694a7b2f.png">
+<img width="400" alt="regexer" src="https://user-images.githubusercontent.com/47954700/213765361-f0c472a5-4e4b-4d7f-916c-bc97694a7b2f.png">
 
 
 
