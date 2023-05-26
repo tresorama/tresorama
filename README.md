@@ -1,7 +1,16 @@
 # About Me
 
 Web product builder, main stack: Next.js, Typescript, Tailwind, tRPC, Prisma.  
-Sometimes i write articles about developing at [dev.to](https://dev.to/tresorama) and [hashnode](https://tresorama.hashnode.dev/)
+I write articles about developing at [dev.to](https://dev.to/tresorama) and [hashnode](https://tresorama.hashnode.dev/)  
+Open to job opportunities, feel free to contact me.
+
+## Currently building
+
+Multipurpose Dashboard template (inspired by Prime React)  
+[View Demo](https://test-internal-tools-001-multipurpose-template-primer-hlrmut3m4.vercel.app/)  
+
+<img width="400" alt="Schermata 2023-05-26 alle 21 03 59" src="https://github.com/tresorama/tresorama/assets/47954700/37e4db06-ddb8-4750-8e4b-20ff15669d40">
+
 
 ## Small tools I made
 
@@ -12,6 +21,7 @@ Sometimes i write articles about developing at [dev.to](https://dev.to/tresorama
 
 <img width="400" alt="gradia" src="https://user-images.githubusercontent.com/47954700/213765289-fdaad04a-906b-4361-8c78-1709f357a131.png">
 
+<br/>
 
 #### Regexer
 
