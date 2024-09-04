@@ -17,10 +17,10 @@ Proudly contributed to:
 ### Figma - Duplicate Color Styles
 
 Copy Figma "Color Style" Folder in one-click by selecting the Folder to duplicate and choosing a name to give to the new folder!  
-This is a Figma plugin
+This is a Figma plugin  
 [Open][url-figma-duplicate-color-styles]
 
-<img width="400" alt="figma-duplicate-color-styles" src="https://github.com/tresorama/figma-plugins/blob/daf2361c65eacb6b8008ebaa086eab2e480ed180/figma-plugins/figma-duplicate-color-styles/media/cover.jpg">
+<img width="400" alt="figma-duplicate-color-styles" src="https://github.com/user-attachments/assets/2e700987-74ad-46a8-9402-012881752ff7">
 
 ---
 
