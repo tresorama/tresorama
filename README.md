@@ -1,7 +1,7 @@
 ## About Me
 
 Web product builder, stacks:
-- Next.js, React, Typescript, Tailwind, tRPC, Prisma.
+- Next.js, React, Typescript, Tailwind/Shadcn/Chakra, tRPC/ts-rest, Drizzle/Supabase/Prisma.
 - SvelteKit, Svelte, Typescript, Tailwind
 - Wordpress, ACF, Bricks
 
@@ -9,6 +9,7 @@ I write articles about developing at [my blog][url-my-blog] and [dev.to][url-dev
 Open to job opportunities, feel free to contact me.
 
 Proudly contributed to:
+- [documentation upgrade of ESlint][url-eslint-docs-pr]
 - [edit feature in Local "Note" addon][url-local-addon]
 - [documentation upgrade of Chakra UI][url-chakra-docs-pr]
 
@@ -46,13 +47,17 @@ Powered by AI!
 [url-my-blog]:https://jacopomarrone.com/blog
 [url-devto]:https://dev.to/tresorama
 [url-hashnode]:https://tresorama.hashnode.dev/
+
 [url-chakra-docs-pr]:https://github.com/chakra-ui/chakra-ui-docs/pull/1062
+[url-eslint-docs-pr]:https://github.com/eslint/eslint/pull/19297
+[url-local-addon]:https://github.com/getflywheel/local-addon-notes/pull/29
+
 [url-multipurpose-live-url]:https://test-internal-tools-001-multipurpose-template-pri-jacopomarrone.vercel.app/
 [url-multipurpose-live-url-2]:https://test-internal-tools-001-multipurpose-template-primer-hlrmut3m4.vercel.app/
+
 [url-regexer]:https://regexer.dev/?ref=github
 [url-gradia]:https://gradia.app/?ref=github
 [url-figma-duplicate-color-styles]:https://www.figma.com/community/plugin/1407542856104422582/duplicate-color-styles
-[url-local-addon]:https://github.com/getflywheel/local-addon-notes/pull/29
 
 
 <!--
