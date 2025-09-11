@@ -1,7 +1,8 @@
 ## About Me
 
 Web product builder, stacks:
-- Next.js, React, Typescript, Tailwind/Shadcn/Chakra, tRPC/ts-rest, Drizzle/Supabase/Prisma.
+- Typescript, React, Next.js, Tailwind/Shadcn/Chakra, tRPC/oRPC/tsRest, Drizzle/Supabase/Prisma
+- Typescript, React, Node + express, tRPC/oRPC/tsRest, Tanstack-Router, Tailwind/Shadcn/Chakra, Drizzle/Supabase/Prisma
 - SvelteKit, Svelte, Typescript, Tailwind
 - Wordpress, ACF, Bricks
 
