@@ -14,6 +14,15 @@ Contributed to:
 - [edit feature in Local "Note" addon][url-local-addon]
 - [documentation upgrade of Chakra UI][url-chakra-docs-pr]
 
+## Utils
+
+### shadcn-registry-ts
+
+A small library of Typescript utilities, served ad shadcn registry.  
+[Open][url-shadcn-registry-ts]
+
+<img width="400" alt="shadcn-registry-ts" src="https://github.com/user-attachments/assets/bb6af0c0-84cd-4841-b2f0-f3e7d1acd672" />
+
 ## Tools
 
 ### Figma - Duplicate Color Styles
@@ -59,6 +68,7 @@ Powered by AI!
 [url-regexer]:https://regexer.dev/?ref=github
 [url-gradia]:https://gradia.app/?ref=github
 [url-figma-duplicate-color-styles]:https://www.figma.com/community/plugin/1407542856104422582/duplicate-color-styles
+[url-shadcn-registry-ts]:https://shadcn-registry-ts.vercel.app/
 
 
 <!--
