@@ -7,7 +7,7 @@ Web product builder, stacks:
 I write articles about developing at [my blog][url-my-blog] and [dev.to][url-devto]  
 Open to job opportunities, feel free to contact me.
 
-Contributed to:
+Open Source Contributions:
 - [documentation upgrade of ESlint][url-eslint-docs-pr]
 - [edit feature in Local "Note" addon][url-local-addon]
 - [documentation upgrade of Chakra UI][url-chakra-docs-pr]
