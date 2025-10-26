@@ -1,4 +1,4 @@
-Web product builder, stacks:
+Stacks:
 - Typescript, React, Next.js, Tailwind/Shadcn/Chakra, tRPC/oRPC/tsRest, Drizzle/Supabase/Prisma
 - Typescript, React, Node + express, tRPC/oRPC/tsRest, Tanstack-Router, Tailwind/Shadcn/Chakra, Drizzle/Supabase/Prisma
 - SvelteKit, Svelte, Typescript, Tailwind
