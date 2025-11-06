@@ -52,7 +52,7 @@ Powered by AI!
 <img width="400" alt="regexer" src="https://user-images.githubusercontent.com/47954700/213765361-f0c472a5-4e4b-4d7f-916c-bc97694a7b2f.png">
 
 
-[url-my-blog]:https://jacopomarrone.com/blog
+[url-my-blog]:https://jacopomarrone.netlify.app/blog
 [url-devto]:https://dev.to/tresorama
 [url-hashnode]:https://tresorama.hashnode.dev/
 
