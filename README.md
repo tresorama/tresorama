@@ -16,7 +16,7 @@ Open Source Contributions:
 
 ### shadcn-registry-ts
 
-A small library of Typescript utilities, served ad shadcn registry.  
+A small library of Typescript utilities, served as shadcn registry.  
 [Open][url-shadcn-registry-ts]
 
 <img width="400" alt="shadcn-registry-ts" src="https://github.com/user-attachments/assets/bb6af0c0-84cd-4841-b2f0-f3e7d1acd672" />
