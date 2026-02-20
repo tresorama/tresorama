@@ -1,8 +1,12 @@
-Stacks:
-- Typescript, React, Next.js, Tailwind/Shadcn/Chakra, tRPC/oRPC/tsRest, Drizzle/Supabase/Prisma
-- Typescript, React, Node + express, tRPC/oRPC/tsRest, Tanstack-Router, Tailwind/Shadcn/Chakra, Drizzle/Supabase/Prisma
-- SvelteKit, Svelte, Typescript, Tailwind
-- Wordpress, ACF, Bricks
+## Stacks
+
+- **BE+SPA**: Typescript, React, Node + express, tRPC/oRPC/tsRest, Tanstack-Router, Tailwind/Shadcn/BaseUI/RadixUI/Chakra, Drizzle/Supabase/Prisma, Zod
+- **FS**: Typescript, React, Next.js/Tanstack Start, tRPC/oRPC/tsRest, Tailwind/Shadcn/BaseUI/RadixUI/Chakra, Drizzle/Supabase/Prisma, Zod
+- **FS**: Typescript, Svelte, SvelteKit, Tailwind, Zod
+- **CHATBOTS**: Vercel AI SDK
+- **AUTOMATIONS**: N8N
+- **BI LB**: Google Sheets, Google App Script
+- **CMS LB**: Wordpress, ACF, Bricks, Custom CSS
 
 I write articles about developing at [my blog][url-my-blog] and [dev.to][url-devto]  
 Open to job opportunities, feel free to contact me.
@@ -12,7 +16,26 @@ Open Source Contributions:
 - [edit feature in Local "Note" addon][url-local-addon]
 - [documentation upgrade of Chakra UI][url-chakra-docs-pr]
 
+## Demo
+
+### BI Market
+
+Sale Market tracking and statistic visualization.  
+[Open][url--demo--bi-market]
+
+<img width="400" alt="bi-market-1" src="https://github.com/user-attachments/assets/61664291-78f0-4642-9c2c-8b606cc9b824" />
+<img width="400" alt="bi-market-2" src="https://github.com/user-attachments/assets/5567af50-ac79-463d-a3ec-03c1ede3fe30" />
+
+### Chatbot
+
+ChatGPT-like chatbot, with extra UI renderable by the LLM.  
+*Private*
+
+<img width="400" alt="charlie" src="https://github.com/user-attachments/assets/e55693da-612a-442b-8a47-5781c871d8da" />
+
+
 ## Utils
+
 
 ### shadcn-registry-ts
 
@@ -67,6 +90,9 @@ Powered by AI!
 [url-gradia]:https://gradia.app/?ref=github
 [url-figma-duplicate-color-styles]:https://www.figma.com/community/plugin/1407542856104422582/duplicate-color-styles
 [url-shadcn-registry-ts]:https://shadcn-registry-ts.vercel.app/
+
+[url--demo--bi-market]:https://test-ebay-price-items-sold-funko-sa.vercel.app/
+
 
 
 <!--
