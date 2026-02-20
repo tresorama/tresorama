@@ -54,16 +54,12 @@ This is a Figma plugin
 
 <img width="400" alt="figma-duplicate-color-styles" src="https://github.com/user-attachments/assets/2e700987-74ad-46a8-9402-012881752ff7">
 
----
-
 ### Gradia
 
 Create Multi-Layer CSS Gradients with ease, and export to pure CSS (or CSS-in-JS).  
 [Open][url-gradia]
 
 <img width="400" alt="gradia" src="https://user-images.githubusercontent.com/47954700/213765289-fdaad04a-906b-4361-8c78-1709f357a131.png">
-
----
 
 ### Regexer
 
