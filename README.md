@@ -31,7 +31,7 @@ Sale Market tracking and statistic visualization.
 ChatGPT-like chatbot, with extra UI renderable by the LLM.  
 *Private*
 
-<img width="400" alt="charlie" src="https://github.com/user-attachments/assets/e55693da-612a-442b-8a47-5781c871d8da" />
+<img width="400" alt="charlie" src="https://github.com/user-attachments/assets/94795431-d852-4f5d-a75b-4887dd9fc032" />
 
 
 ## Utils
