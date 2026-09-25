@@ -124,7 +124,7 @@ I prefer an end-to-end workflow where implementation, testing, integration, and 
 
 ---
 
-# Selected Projects
+# Projects
 
 ## MultiBot — AI Chat Application
 
@@ -273,30 +273,6 @@ Filesystem
 The application includes asynchronous jobs, cancellation, WebSocket communication, process management, filesystem operations, packaging, and end-to-end testing.
 
 The project also involved working deeply with Python's `asyncio`, task cancellation semantics, and desktop process orchestration.
-
----
-
-# Additional Projects & Demos
-
-## BI Market
-
-![BI Market](https://github.com/user-attachments/assets/61664291-78f0-4642-9c2c-8b606cc9b824)
-
-![BI Market](https://github.com/user-attachments/assets/5567af50-ac79-463d-a3ec-03c1ede3fe30)
-
-Sale market tracking and statistical visualization.
-
-The project is represented above by the `test-ebay-price-items-sold--funko` repository.
-
----
-
-## Chatbot
-
-![Chatbot](https://github.com/user-attachments/assets/94795431-d852-4f5d-a75b-4887dd9fc032)
-
-ChatGPT-like chatbot with additional UI elements that can be rendered by the LLM.
-
-The project is represented above by the `test-multibot-app` repository.
 
 ---
 
