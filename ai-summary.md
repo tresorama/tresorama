@@ -128,6 +128,8 @@ I prefer an end-to-end workflow where implementation, testing, integration, and 
 
 ## MultiBot — AI Chat Application
 
+![Chatbot](https://github.com/user-attachments/assets/94795431-d852-4f5d-a75b-4887dd9fc032)
+
 **Repository:** `test-multibot-app`
 
 A full-stack AI chat application exploring multiple chatbot architectures and LLM interaction patterns.
@@ -187,6 +189,10 @@ The tool layer can execute multiple calls concurrently while handling individual
 
 ## eBay / Funko Price Analytics
 
+![BI Market](https://github.com/user-attachments/assets/61664291-78f0-4642-9c2c-8b606cc9b824)
+
+![BI Market](https://github.com/user-attachments/assets/5567af50-ac79-463d-a3ec-03c1ede3fe30)
+
 **Repository:** `test-ebay-price-items-sold--funko`
 
 A data-heavy application for analyzing historical sold-item prices for Funko products.
@@ -225,12 +231,6 @@ Features include:
 - Performance instrumentation
 - Contract-first API
 - Authenticated API access
-
-### Screenshots
-
-![BI Market](https://github.com/user-attachments/assets/61664291-78f0-4642-9c2c-8b606cc9b824)
-
-![BI Market](https://github.com/user-attachments/assets/5567af50-ac79-463d-a3ec-03c1ede3fe30)
 
 **Live demo:** https://test-ebay-price-items-sold-funko-sa.vercel.app/
 
@@ -280,6 +280,10 @@ The project also involved working deeply with Python's `asyncio`, task cancellat
 
 ## BI Market
 
+![BI Market](https://github.com/user-attachments/assets/61664291-78f0-4642-9c2c-8b606cc9b824)
+
+![BI Market](https://github.com/user-attachments/assets/5567af50-ac79-463d-a3ec-03c1ede3fe30)
+
 Sale market tracking and statistical visualization.
 
 The project is represented above by the `test-ebay-price-items-sold--funko` repository.
@@ -288,15 +292,17 @@ The project is represented above by the `test-ebay-price-items-sold--funko` repo
 
 ## Chatbot
 
+![Chatbot](https://github.com/user-attachments/assets/94795431-d852-4f5d-a75b-4887dd9fc032)
+
 ChatGPT-like chatbot with additional UI elements that can be rendered by the LLM.
 
 The project is represented above by the `test-multibot-app` repository.
 
-![Chatbot](https://github.com/user-attachments/assets/94795431-d852-4f5d-a75b-4887dd9fc032)
-
 ---
 
 ## shadcn-registry-ts
+
+![shadcn-registry-ts](https://github.com/user-attachments/assets/bb6af0c0-84cd-4841-b2f0-f3e7d1acd672)
 
 **Repository:** `shadcn-registry-ts`
 
@@ -304,11 +310,11 @@ A small library of TypeScript utilities distributed through a shadcn registry.
 
 **Repository:** https://github.com/tresorama/shadcn-registry-ts
 
-![shadcn-registry-ts](https://github.com/user-attachments/assets/bb6af0c0-84cd-4841-b2f0-f3e7d1acd672)
-
 ---
 
 ## Figma — Duplicate Color Styles
+
+![Figma Duplicate Color Styles](https://github.com/user-attachments/assets/2e700987-74ad-46a8-9402-012881752ff7)
 
 **Repository:** `figma-plugins`
 
@@ -318,19 +324,17 @@ The plugin allows the user to select the folder to duplicate and provide the nam
 
 **Repository:** https://github.com/tresorama/figma-plugins
 
-![Figma Duplicate Color Styles](https://github.com/user-attachments/assets/2e700987-74ad-46a8-9402-012881752ff7)
-
 ---
 
 ## Gradia
+
+![Gradia](https://user-images.githubusercontent.com/47954700/213765289-fdaad04a-906b-4361-8c78-1709f357a131.png)
 
 **Repository:** `gradientor`
 
 A visual tool for creating multi-layer CSS gradients and exporting them as pure CSS or CSS-in-JS.
 
 **Repository:** https://github.com/tresorama/gradientor
-
-![Gradia](https://user-images.githubusercontent.com/47954700/213765289-fdaad04a-906b-4361-8c78-1709f357a131.png)
 
 ---
 
