@@ -132,22 +132,25 @@ I prefer an end-to-end workflow where implementation, testing, integration, and 
 
 **Repository:** `test-multibot-app`
 
-A full-stack AI chat application exploring multiple chatbot architectures and LLM interaction patterns.
+### Purpose
 
-### Technologies
-
-- React / Vite
-- TanStack Router
-- TanStack React Query
-- Node.js / TypeScript
-- PostgreSQL
-- Drizzle
-- Tailwind CSS
-- OpenAI
-- Vercel AI SDK
-- Typed API layers
+A ChatGPT-like application where users can have persistent conversations with different AI chatbots. The project explores how an LLM can go beyond plain text responses by calling tools, executing actions, and rendering additional UI inside the chat experience.
 
 ### Architecture
+
+```
+User
+  ↓
+React / Vite UI
+  ↓
+Typed API layer
+  ↓
+Node.js / TypeScript services
+  ↓
+LLM + Tool System
+  ↓
+PostgreSQL / Drizzle
+```
 
 The application includes:
 
@@ -185,6 +188,19 @@ Final response
 
 The tool layer can execute multiple calls concurrently while handling individual tool failures independently.
 
+### Technologies
+
+- React / Vite
+- TanStack Router
+- TanStack React Query
+- Node.js / TypeScript
+- PostgreSQL
+- Drizzle
+- Tailwind CSS
+- OpenAI
+- Vercel AI SDK
+- Typed API layers
+
 ---
 
 ## eBay / Funko Price Analytics
@@ -195,9 +211,11 @@ The tool layer can execute multiple calls concurrently while handling individual
 
 **Repository:** `test-ebay-price-items-sold--funko`
 
-A data-heavy application for analyzing historical sold-item prices for Funko products.
+### Purpose
 
-### Data Pipeline
+A data-analysis application for users who want to track the secondary-market prices of Funko products and explore historical sales data through interactive tables, filters, statistics, and visualizations.
+
+### Architecture
 
 ```
 eBay
@@ -217,7 +235,7 @@ Indexes / Cache
 Tables + Charts
 ```
 
-The application focuses heavily on data processing and frontend performance.
+The frontend uses indexed data structures and cached expensive calculations to make filtering, aggregation, and visualization responsive even as the dataset grows.
 
 Features include:
 
@@ -240,19 +258,9 @@ Features include:
 
 **Repository:** `spotidisk`
 
-A desktop application combining a React frontend with a Python/FastAPI backend.
+### Purpose
 
-### Technologies
-
-- Electron
-- React / TypeScript
-- Python
-- FastAPI
-- WebSockets
-- Playwright
-- OpenAPI
-- Asyncio
-- Filesystem APIs
+A desktop application for managing music-download jobs from a user-facing interface. The application handles long-running operations in the background while providing progress, cancellation, and communication between the desktop UI and backend processes.
 
 ### Architecture
 
@@ -270,9 +278,31 @@ External Music Providers
 Filesystem
 ```
 
-The application includes asynchronous jobs, cancellation, WebSocket communication, process management, filesystem operations, packaging, and end-to-end testing.
+The Electron layer orchestrates the desktop application and backend processes. The React frontend communicates with the Python/FastAPI backend, which manages asynchronous jobs and external-provider operations before writing results to the filesystem.
+
+The application includes:
+
+- Asynchronous jobs
+- Job cancellation
+- WebSocket communication
+- Process management
+- Filesystem operations
+- Application packaging
+- End-to-end testing
 
 The project also involved working deeply with Python's `asyncio`, task cancellation semantics, and desktop process orchestration.
+
+### Technologies
+
+- Electron
+- React / TypeScript
+- Python
+- FastAPI
+- WebSockets
+- Playwright
+- OpenAPI
+- Asyncio
+- Filesystem APIs
 
 ---
 
@@ -282,7 +312,13 @@ The project also involved working deeply with Python's `asyncio`, task cancellat
 
 **Repository:** `shadcn-registry-ts`
 
-A small library of TypeScript utilities distributed through a shadcn registry.
+### Purpose
+
+A small developer-focused library that provides reusable TypeScript utilities through the shadcn registry model, making the utilities easy to discover and add to projects.
+
+### Architecture
+
+The project is intentionally lightweight: reusable TypeScript utilities are packaged and exposed through a shadcn-compatible registry so developers can consume the code directly in their own projects.
 
 **Repository:** https://github.com/tresorama/shadcn-registry-ts
 
@@ -294,9 +330,13 @@ A small library of TypeScript utilities distributed through a shadcn registry.
 
 **Repository:** `figma-plugins`
 
-A Figma plugin for duplicating a Color Style folder in one click.
+### Purpose
 
-The plugin allows the user to select the folder to duplicate and provide the name for the new folder.
+A Figma plugin that lets designers duplicate an entire Color Style folder in one action, instead of manually recreating or copying the styles.
+
+### Architecture
+
+The plugin runs inside Figma and uses the Figma Plugin API to read the selected Color Style folder, duplicate its styles, and create the new folder with a user-provided name.
 
 **Repository:** https://github.com/tresorama/figma-plugins
 
@@ -308,7 +348,27 @@ The plugin allows the user to select the folder to duplicate and provide the nam
 
 **Repository:** `gradientor`
 
-A visual tool for creating multi-layer CSS gradients and exporting them as pure CSS or CSS-in-JS.
+### Purpose
+
+A visual tool for creating complex multi-layer CSS gradients without having to manually construct the CSS. Users can visually compose gradient layers and export the resulting CSS or CSS-in-JS.
+
+### Architecture
+
+The application provides an interactive visual editor for gradient layers, maintains the gradient configuration in the frontend, and transforms that configuration into standard CSS output.
+
+The main flow is:
+
+```
+User
+  ↓
+Visual Gradient Editor
+  ↓
+Gradient Configuration
+  ↓
+CSS Generator
+  ↓
+CSS / CSS-in-JS Output
+```
 
 **Repository:** https://github.com/tresorama/gradientor
 
