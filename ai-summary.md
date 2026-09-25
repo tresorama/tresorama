@@ -260,9 +260,11 @@ Features include:
 
 ### Purpose
 
-A desktop application for downloading songs from Spotify playlists to the local disk. The user selects Spotify playlists and the application finds the corresponding audio on YouTube, uses YouTube as the audio source, and downloads the tracks locally.
+A desktop application targeted at DJs who curate their music library on Spotify and want to obtain the corresponding audio files on their local computer.
 
-The application is designed to manage potentially long-running playlist downloads while showing progress and allowing jobs to be cancelled.
+Users can process Spotify playlists and download their tracks to the local disk, using YouTube as the audio source. The application is designed to turn a playlist-based music collection managed on Spotify into a locally stored library of audio files.
+
+The application also manages potentially long-running download operations, providing progress tracking and job cancellation.
 
 ### Architecture
 
@@ -270,6 +272,8 @@ The application is designed to manage potentially long-running playlist download
 Spotify
    ↓
 Playlist / Track Metadata
+   ↓
+Electron Desktop App
    ↓
 React / TypeScript UI
    ↓
@@ -282,7 +286,11 @@ YouTube Audio Source
 Local Filesystem
 ```
 
-Electron acts as the desktop orchestrator, launching and managing the application processes. The React frontend provides the user interface, while the Python/FastAPI backend handles the download workflow and asynchronous jobs. Track metadata from Spotify is used to identify the corresponding audio source on YouTube, with the resulting files written to the local filesystem.
+Electron acts as the desktop orchestrator, launching and managing the application processes. The React frontend provides the user interface, while the Python/FastAPI backend handles the download workflow and asynchronous jobs.
+
+Spotify provides the playlist and track metadata. The backend uses that metadata to identify the corresponding audio source on YouTube, downloads the audio, and writes the resulting files to the local filesystem.
+
+For application persistence, Spotidisk uses a simple local JSON file stored on the user's computer rather than a remote database.
 
 The application includes:
 
@@ -293,6 +301,7 @@ The application includes:
 - Job cancellation
 - WebSocket communication
 - Process management
+- Local JSON persistence
 - Filesystem operations
 - Application packaging
 - End-to-end testing
@@ -309,6 +318,7 @@ The project also involved working deeply with Python's `asyncio`, task cancellat
 - Playwright
 - OpenAPI
 - Asyncio
+- JSON-based local persistence
 - Filesystem APIs
 
 ---
