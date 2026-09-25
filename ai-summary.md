@@ -138,37 +138,14 @@ A ChatGPT-like application where users can have persistent conversations with di
 
 ### Architecture
 
-```
-User
-  ↓
-React / Vite UI
-  ↓
-Typed API layer
-  ↓
-Node.js / TypeScript services
-  ↓
-LLM + Tool System
-  ↓
-PostgreSQL / Drizzle
-```
+Full-stack web application.
 
-The application includes:
-
-- Persistent conversations
-- Authentication and authorization middleware
-- Chat and LLM services
-- Background jobs
-- Task queues
-- Scheduled / cron processing
-- Tool calling
-- Streaming AI responses
-- LLM-generated interactive UI
-- Markdown rendering
-- PWA support
-- Service-level and database testing
-- Logging and global error handling
-- Resource monitoring
-
+- **Frontend:** React / Vite / TanStack Router / TanStack React Query
+- **Backend:** Node.js / TypeScript
+- **API:** typed API layer
+- **Database:** PostgreSQL / Drizzle
+- **AI:** OpenAI / Vercel AI SDK
+- **Architecture:** persistent conversations, authentication middleware, background jobs, task queues, cron processing, tool calling, streaming responses, and LLM-generated interactive UI.
 ### LLM Tool-Calling Flow
 
 ```
@@ -218,41 +195,13 @@ A data-analysis application for users who want to track the secondary-market pri
 
 ### Architecture
 
-```
-eBay
-  ↓
-Data collection
-  ↓
-Google Sheets
-  ↓
-n8n
-  ↓
-API
-  ↓
-Frontend DataStore
-  ↓
-Indexes / Cache
-  ↓
-Tables + Charts
-```
+Full-stack web application with a data-analysis frontend and an external data pipeline.
 
-The frontend uses indexed data structures and cached expensive calculations to make filtering, aggregation, and visualization responsive even as the dataset grows.
-
-Features include:
-
-- Historical price analysis
-- Interactive tables
-- Charts and visualizations
-- Filtering
-- Category / year / month / week indexes
-- Cached expensive calculations
-- Statistical computations
-- Performance instrumentation
-- Contract-first API
-- Authenticated API access
-
-**Live demo:** https://test-ebay-price-items-sold-funko-sa.vercel.app/
-
+- **Frontend:** React / TypeScript with a client-side DataStore, indexes, caching, interactive tables, and charts
+- **Backend / API:** authenticated typed API
+- **Data pipeline:** eBay → Google Sheets → n8n → API
+- **Storage:** Google Sheets
+- **Architecture:** data collection and transformation are handled by the pipeline, while the frontend maintains indexed and cached data for responsive filtering, aggregation, and visualization.
 ---
 
 ## Spotidisk
@@ -269,46 +218,16 @@ The application also manages potentially long-running download operations, provi
 
 ### Architecture
 
-```
-Spotify
-   ↓
-Playlist / Track Metadata
-   ↓
-Electron Desktop App
-   ↓
-React / TypeScript UI
-   ↓
-Python / FastAPI
-   ↓
-Async Job System
-   ↓
-YouTube Audio Source
-   ↓
-Local Filesystem
-```
+Desktop application composed of an Electron frontend/orchestrator and a Python backend.
 
-Electron acts as the desktop orchestrator, launching and managing the application processes. The React frontend provides the user interface, while the Python/FastAPI backend handles the download workflow and asynchronous jobs.
-
-Spotify provides the playlist and track metadata. The backend uses that metadata to identify the corresponding audio source on YouTube, downloads the audio, and writes the resulting files to the local filesystem.
-
-For application persistence, Spotidisk uses a simple local JSON file stored on the user's computer rather than a remote database.
-
-The application includes:
-
-- Spotify playlist processing
-- YouTube-based audio sourcing
-- Asynchronous download jobs
-- Job progress tracking
-- Job cancellation
-- WebSocket communication
-- Process management
-- Local JSON persistence
-- Filesystem operations
-- Application packaging
-- End-to-end testing
-
-The project also involved working deeply with Python's `asyncio`, task cancellation semantics, and desktop process orchestration.
-
+- **Desktop shell:** Electron
+- **Frontend:** React / TypeScript
+- **Backend:** Python / FastAPI
+- **Communication:** WebSockets / OpenAPI
+- **Async processing:** Python asyncio job system
+- **Persistence:** local JSON file
+- **External sources:** Spotify for playlist metadata and YouTube for audio sourcing
+- **Architecture:** Electron launches and manages the application processes; the React UI communicates with the FastAPI backend, which handles asynchronous download jobs and filesystem operations.
 ### Technologies
 
 - Electron
@@ -336,10 +255,11 @@ A small developer-focused library that provides reusable TypeScript utilities th
 
 ### Architecture
 
-The project is intentionally lightweight: reusable TypeScript utilities are packaged and exposed through a shadcn-compatible registry so developers can consume the code directly in their own projects.
+Client-side developer library / registry package. No backend or database.
 
-**Repository:** https://github.com/tresorama/shadcn-registry-ts
-
+- **Runtime:** TypeScript
+- **Distribution:** shadcn-compatible registry
+- **Architecture:** reusable TypeScript utilities are exposed through the registry so developers can add the source code directly to their projects.
 ---
 
 ## Figma — Duplicate Color Styles
@@ -354,10 +274,11 @@ A Figma plugin that lets designers duplicate an entire Color Style folder in one
 
 ### Architecture
 
-The plugin runs inside Figma and uses the Figma Plugin API to read the selected Color Style folder, duplicate its styles, and create the new folder with a user-provided name.
+Client-only Figma plugin. No external backend or database.
 
-**Repository:** https://github.com/tresorama/figma-plugins
-
+- **Runtime:** Figma Plugin API
+- **UI:** plugin UI
+- **Architecture:** the plugin reads Color Style folders through the Figma API, duplicates the styles, and creates a new folder entirely within the Figma environment.
 ---
 
 ## Gradia
@@ -372,24 +293,10 @@ A visual tool for creating complex multi-layer CSS gradients without having to m
 
 ### Architecture
 
-The application provides an interactive visual editor for gradient layers, maintains the gradient configuration in the frontend, and transforms that configuration into standard CSS output.
+Client-only frontend application / SPA. No backend or database.
 
-The main flow is:
-
-```
-User
-  ↓
-Visual Gradient Editor
-  ↓
-Gradient Configuration
-  ↓
-CSS Generator
-  ↓
-CSS / CSS-in-JS Output
-```
-
-**Repository:** https://github.com/tresorama/gradientor
-
+- **Frontend:** web UI
+- **Architecture:** gradient configuration is maintained in client-side state and transformed directly into CSS / CSS-in-JS output. All editing and generation happen in the browser.
 ---
 
 # Additional Technical Experience
