@@ -134,7 +134,7 @@ I prefer an end-to-end workflow where implementation, testing, integration, and 
 
 ### Purpose
 
-A ChatGPT-like application where users can have persistent conversations with different AI chatbots. The project explores how an LLM can go beyond plain text responses by calling tools, executing actions, and rendering additional UI inside the chat experience.
+A ChatGPT-like application where users can have persistent conversations with different AI chatbots. Its value compared with a standard ChatGPT-style chat is the ability for the LLM to produce new interactive UI experiences inside the conversation, guided by system prompts designed to improve the user experience. These include charts, video players, interactive forms, and other task-specific UI components.
 
 ### Architecture
 
@@ -162,6 +162,7 @@ The application includes:
 - Scheduled / cron processing
 - Tool calling
 - Streaming AI responses
+- LLM-generated interactive UI
 - Markdown rendering
 - PWA support
 - Service-level and database testing
