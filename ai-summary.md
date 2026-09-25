@@ -260,12 +260,16 @@ Features include:
 
 ### Purpose
 
-A desktop application for managing music-download jobs from a user-facing interface. The application handles long-running operations in the background while providing progress, cancellation, and communication between the desktop UI and backend processes.
+A desktop application for downloading songs from Spotify playlists to the local disk. The user selects Spotify playlists and the application finds the corresponding audio on YouTube, uses YouTube as the audio source, and downloads the tracks locally.
+
+The application is designed to manage potentially long-running playlist downloads while showing progress and allowing jobs to be cancelled.
 
 ### Architecture
 
 ```
-Electron
+Spotify
+   ↓
+Playlist / Track Metadata
    ↓
 React / TypeScript UI
    ↓
@@ -273,16 +277,19 @@ Python / FastAPI
    ↓
 Async Job System
    ↓
-External Music Providers
+YouTube Audio Source
    ↓
-Filesystem
+Local Filesystem
 ```
 
-The Electron layer orchestrates the desktop application and backend processes. The React frontend communicates with the Python/FastAPI backend, which manages asynchronous jobs and external-provider operations before writing results to the filesystem.
+Electron acts as the desktop orchestrator, launching and managing the application processes. The React frontend provides the user interface, while the Python/FastAPI backend handles the download workflow and asynchronous jobs. Track metadata from Spotify is used to identify the corresponding audio source on YouTube, with the resulting files written to the local filesystem.
 
 The application includes:
 
-- Asynchronous jobs
+- Spotify playlist processing
+- YouTube-based audio sourcing
+- Asynchronous download jobs
+- Job progress tracking
 - Job cancellation
 - WebSocket communication
 - Process management
