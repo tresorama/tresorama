@@ -2,9 +2,9 @@
 
 ## Full-Stack Product Developer
 
-Full-stack product developer and software builder with a strong TypeScript/React background.
+Full-stack product developer and software builder with a strong frontend background, particularly in React and TypeScript.
 
-I build products end-to-end across frontend, backend, data, AI, testing, integrations, and deployment.
+**Frontend and React are my strongest areas**, where I focus on building complex, interactive, user-oriented interfaces. I also work across backend, data, AI, testing, integrations, and deployment to take products end-to-end.
 
 ---
 
@@ -378,14 +378,3 @@ https://github.com/chakra-ui/chakra-ui-docs/pull/1062
 - Ability to work across unfamiliar technologies
 - Experience taking products from idea to deployment
 
----
-
-# Current Focus
-
-- Database internals, indexes, query optimization, and `EXPLAIN`
-- Transactions
-- Async and concurrent systems
-- Queues and distributed processing
-- LLM agent architectures and tool systems
-- Observability and reliability
-- System design
