@@ -27,84 +27,9 @@ I turn concrete user needs and ambiguous requirements into working, deployable p
 
 ---
 
-## Core Skills
-
-### Frontend
-
-- TypeScript / JavaScript
-- React / Next.js
-- TanStack Router / React Query / Table / Virtual
-- Svelte / SvelteKit
-- Tailwind CSS
-- shadcn/ui / Base UI / Radix UI / Chakra UI
-- Complex tables, filtering, sorting, and data visualization
-- Client-side state, data stores, Markdown and AI rendering
-- PWA development
-- Typed API integration
-
-### Backend
-
-- Node.js / TypeScript
-- Python / FastAPI
-- Express
-- REST / OpenAPI
-- tRPC / oRPC / ts-rest
-- Contract-first API design
-- PostgreSQL / MySQL / SQLite
-- Drizzle / Prisma / Supabase
-- Zod
-- Async programming
-- Background jobs / task queues
-- WebSockets
-- Filesystem-based applications
-
-### AI / LLM
-
-- OpenAI APIs / Vercel AI SDK
-- LLM tool calling and function execution
-- Multi-chatbot architectures
-- Tool schemas and structured inputs
-- Streaming AI interfaces
-- External API tools
-- Conversation persistence
-- AI-powered UX
-- LLM-generated UI
-
-### Architecture
-
-- Full-stack application architecture
-- UI / API / business-logic separation
-- Domain-oriented backend services
-- Typed API contracts and generated clients
-- Authentication / middleware
-- Async jobs and cron processing
-- Client-side indexing and caching
-- Desktop architecture and process orchestration
-
-### Testing & Reliability
-
-- Unit / integration / API / service testing
-- End-to-end and real-system E2E testing
-- Async / concurrency debugging
-- Performance instrumentation
-- Error handling and logging
-
-### Tooling & Automation
-
-- Vite / TanStack
-- pnpm / npm
-- Git / GitHub
-- Docker
-- Electron / esbuild
-- n8n
-- Google Apps Script / Google Sheets
-- Figma plugin development
-
----
-
 ## Development Workflow
 
-```
+```text
 Issue
   ↓
 Architecture
@@ -129,7 +54,6 @@ I treat implementation, testing, integration, and deployment as one end-to-end d
 ---
 
 # Projects
-
 
 ## Spotidisk
 
@@ -168,7 +92,6 @@ Desktop application with Electron and a Python backend.
 
 ---
 
-
 ## MultiBot — AI Chat Application
 
 ![Chatbot](https://github.com/user-attachments/assets/94795431-d852-4f5d-a75b-4887dd9fc032)
@@ -196,7 +119,7 @@ Full-stack web application.
 
 ### LLM Tool-Calling Flow
 
-```
+```text
 User message → LLM → Tool call → Tool execution
                          ↓
                     Tool result
@@ -237,12 +160,9 @@ Full-stack web application with an external data pipeline.
 
 ---
 
-
----
-
 ## shadcn-registry-ts
 
-![shadcn-registry-ts](https://github.com/user-attachments/assets/bb6af0c0-84cd-4841-b2f0-f3e7d1acd672)
+![shadcn-registry-ts](https://github.com/user-attachments/assets/bb6af0c0-84ad-46a8-9402-012881752ff7)
 
 **Repository:** `shadcn-registry-ts`
 
@@ -343,6 +263,81 @@ Client-only SPA with no backend or database.
 
 ---
 
+## Core Skills
+
+### Frontend
+
+- TypeScript / JavaScript
+- React / Next.js
+- TanStack Router / React Query / Table / Virtual
+- Svelte / SvelteKit
+- Tailwind CSS
+- shadcn/ui / Base UI / Radix UI / Chakra UI
+- Complex tables, filtering, sorting, and data visualization
+- Client-side state, data stores, Markdown and AI rendering
+- PWA development
+- Typed API integration
+
+### Backend
+
+- Node.js / TypeScript
+- Python / FastAPI
+- Express
+- REST / OpenAPI
+- tRPC / oRPC / ts-rest
+- Contract-first API design
+- PostgreSQL / MySQL / SQLite
+- Drizzle / Prisma / Supabase
+- Zod
+- Async programming
+- Background jobs / task queues
+- WebSockets
+- Filesystem-based applications
+
+### AI / LLM
+
+- OpenAI APIs / Vercel AI SDK
+- LLM tool calling and function execution
+- Multi-chatbot architectures
+- Tool schemas and structured inputs
+- Streaming AI interfaces
+- External API tools
+- Conversation persistence
+- AI-powered UX
+- LLM-generated UI
+
+### Architecture
+
+- Full-stack application architecture
+- UI / API / business-logic separation
+- Domain-oriented backend services
+- Typed API contracts and generated clients
+- Authentication / middleware
+- Async jobs and cron processing
+- Client-side indexing and caching
+- Desktop architecture and process orchestration
+
+### Testing & Reliability
+
+- Unit / integration / API / service testing
+- End-to-end and real-system E2E testing
+- Async / concurrency debugging
+- Performance instrumentation
+- Error handling and logging
+
+### Tooling & Automation
+
+- Vite / TanStack
+- pnpm / npm
+- Git / GitHub
+- Docker
+- Electron / esbuild
+- n8n
+- Google Apps Script / Google Sheets
+- Figma plugin development
+
+---
+
 # Open Source Contributions
 
 ### ESLint
@@ -377,4 +372,3 @@ https://github.com/chakra-ui/chakra-ui-docs/pull/1062
 - Product / UX thinking
 - Ability to work across unfamiliar technologies
 - Experience taking products from idea to deployment
-
