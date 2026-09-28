@@ -2,7 +2,9 @@
 
 ## Full-Stack Product Developer
 
-Full-stack product developer with a strong TypeScript/React background and hands-on experience building AI-powered applications, data-heavy interfaces, typed APIs, asynchronous systems, automated tests, databases, automation workflows, developer tools, and desktop software.
+Full-stack product developer and software builder with a strong TypeScript/React background and hands-on experience building AI-powered applications, data-heavy interfaces, typed APIs, asynchronous systems, automated tests, databases, automation workflows, developer tools, and desktop software.
+
+I am a builder-oriented developer: I am comfortable taking an idea or ambiguous requirement, making architectural decisions, implementing the product end-to-end, and getting it into a working, deployable state. My experience spans frontend, backend, data, AI, and infrastructure rather than being limited to a single layer of the stack.
 
 I enjoy taking ambiguous product requirements and turning them into working systems, with particular interest in the intersection of product development, backend engineering, data, and AI.
 
