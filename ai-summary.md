@@ -130,6 +130,45 @@ I treat implementation, testing, integration, and deployment as one end-to-end d
 
 # Projects
 
+
+## Spotidisk
+
+**Repository:** `spotidisk`
+
+### Target User
+
+DJs who curate their music library through Spotify.
+
+### Purpose
+
+Turn a DJ's Spotify playlist workflow into a local audio-library workflow, with download progress and job cancellation.
+
+### Architecture
+
+Desktop application with Electron and a Python backend.
+
+- **Desktop shell:** Electron
+- **Frontend:** React / TypeScript
+- **Backend:** Python / FastAPI
+- **Communication:** WebSockets / OpenAPI
+- **Async processing:** Python asyncio job system
+- **Persistence:** local JSON
+- **External sources:** Spotify for playlist metadata, YouTube for audio sourcing
+- **Core:** process orchestration, async download jobs, and filesystem operations
+
+### Technologies
+
+- Electron
+- React / TypeScript
+- Python / FastAPI
+- WebSockets / OpenAPI
+- Playwright
+- Asyncio
+- JSON / filesystem APIs
+
+---
+
+
 ## MultiBot — AI Chat Application
 
 ![Chatbot](https://github.com/user-attachments/assets/94795431-d852-4f5d-a75b-4887dd9fc032)
@@ -198,40 +237,6 @@ Full-stack web application with an external data pipeline.
 
 ---
 
-## Spotidisk
-
-**Repository:** `spotidisk`
-
-### Target User
-
-DJs who curate their music library through Spotify.
-
-### Purpose
-
-Turn a DJ's Spotify playlist workflow into a local audio-library workflow, with download progress and job cancellation.
-
-### Architecture
-
-Desktop application with Electron and a Python backend.
-
-- **Desktop shell:** Electron
-- **Frontend:** React / TypeScript
-- **Backend:** Python / FastAPI
-- **Communication:** WebSockets / OpenAPI
-- **Async processing:** Python asyncio job system
-- **Persistence:** local JSON
-- **External sources:** Spotify for playlist metadata, YouTube for audio sourcing
-- **Core:** process orchestration, async download jobs, and filesystem operations
-
-### Technologies
-
-- Electron
-- React / TypeScript
-- Python / FastAPI
-- WebSockets / OpenAPI
-- Playwright
-- Asyncio
-- JSON / filesystem APIs
 
 ---
 
