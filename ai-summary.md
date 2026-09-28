@@ -10,6 +10,27 @@ I enjoy taking ambiguous product requirements and turning them into working syst
 
 ---
 
+## Builder Mindset
+
+**Product-oriented, end-to-end software builder.**
+
+I am comfortable taking an idea or ambiguous requirement and turning it into a working, deployable product.
+
+My approach typically covers the full development cycle:
+
+**Product → Architecture → Implementation → Integration → Testing → Debugging → Deployment**
+
+### What distinguishes my approach
+
+- **UX-first product thinking** — I usually start from the user interface and the experience I want the user to have. I think about how the product should present information, guide actions, and reduce friction before deciding how the backend, data model, APIs, or infrastructure should work. I then derive the technical architecture from those product and UX requirements.
+- **End-to-end ownership** — I can work across frontend, backend, data, AI, integrations, testing, and deployment rather than being limited to a single layer.
+- **Cross-domain** — I have built web applications, data platforms, AI applications, desktop software, developer tools, and Figma plugins.
+- **Technology-independent** — I am comfortable entering unfamiliar technical domains and learning the technologies required to build the product.
+- **Systems thinking** — I consider data flow, APIs, persistence, asynchronous processing, reliability, testing, and operational concerns as part of the product.
+- **Build-first mindset** — I prefer turning ideas into working software and learning through implementation rather than limiting exploration to prototypes or technical specifications.
+
+---
+
 ## Core Skills
 
 ### Frontend
@@ -148,6 +169,7 @@ Full-stack web application.
 - **Database:** PostgreSQL / Drizzle
 - **AI:** OpenAI / Vercel AI SDK
 - **Architecture:** persistent conversations, authentication middleware, background jobs, task queues, cron processing, tool calling, streaming responses, and LLM-generated interactive UI.
+
 ### LLM Tool-Calling Flow
 
 ```
@@ -204,6 +226,7 @@ Full-stack web application with a data-analysis frontend and an external data pi
 - **Data pipeline:** eBay → Google Sheets → n8n → API
 - **Storage:** Google Sheets
 - **Architecture:** data collection and transformation are handled by the pipeline, while the frontend maintains indexed and cached data for responsive filtering, aggregation, and visualization.
+
 ---
 
 ## Spotidisk
@@ -230,6 +253,7 @@ Desktop application composed of an Electron frontend/orchestrator and a Python b
 - **Persistence:** local JSON file
 - **External sources:** Spotify for playlist metadata and YouTube for audio sourcing
 - **Architecture:** Electron launches and manages the application processes; the React UI communicates with the FastAPI backend, which handles asynchronous download jobs and filesystem operations.
+
 ### Technologies
 
 - Electron
@@ -262,6 +286,7 @@ Client-side developer library / registry package. No backend or database.
 - **Runtime:** TypeScript
 - **Distribution:** shadcn-compatible registry
 - **Architecture:** reusable TypeScript utilities are exposed through the registry so developers can add the source code directly to their projects.
+
 ---
 
 ## Figma — Duplicate Color Styles
@@ -281,6 +306,7 @@ Client-only Figma plugin. No external backend or database.
 - **Runtime:** Figma Plugin API
 - **UI:** plugin UI
 - **Architecture:** the plugin reads Color Style folders through the Figma API, duplicates the styles, and creates a new folder entirely within the Figma environment.
+
 ---
 
 ## Gradia
@@ -299,6 +325,7 @@ Client-only frontend application / SPA. No backend or database.
 
 - **Frontend:** web UI
 - **Architecture:** gradient configuration is maintained in client-side state and transformed directly into CSS / CSS-in-JS output. All editing and generation happen in the browser.
+
 ---
 
 # Additional Technical Experience
