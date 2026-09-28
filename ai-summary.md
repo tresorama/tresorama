@@ -8,6 +8,21 @@ Full-stack product developer and software builder with a strong frontend backgro
 
 ---
 
+# What I Bring to a Team
+
+- End-to-end feature ownership
+- Strong TypeScript / React experience
+- Full-stack flexibility
+- AI application development
+- Data-oriented engineering
+- Backend and API design
+- Testing mindset
+- Product / UX thinking
+- Ability to work across unfamiliar technologies
+- Experience taking products from idea to deployment
+
+---
+
 ## Builder Mindset
 
 **Product-oriented, end-to-end software builder.**
@@ -357,18 +372,3 @@ https://github.com/getflywheel/local-addon-notes/pull/29
 Documentation upgrade.
 
 https://github.com/chakra-ui/chakra-ui-docs/pull/1062
-
----
-
-# What I Bring to a Team
-
-- End-to-end feature ownership
-- Strong TypeScript / React experience
-- Full-stack flexibility
-- AI application development
-- Data-oriented engineering
-- Backend and API design
-- Testing mindset
-- Product / UX thinking
-- Ability to work across unfamiliar technologies
-- Experience taking products from idea to deployment
