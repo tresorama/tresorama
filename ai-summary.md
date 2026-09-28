@@ -155,9 +155,13 @@ I prefer an end-to-end workflow where implementation, testing, integration, and 
 
 **Repository:** `test-multibot-app`
 
+### Target User
+
+Users who want to interact with AI through richer, task-specific experiences than a traditional text-only chat.
+
 ### Purpose
 
-A ChatGPT-like application where users can have persistent conversations with different AI chatbots. Its value compared with a standard ChatGPT-style chat is the ability for the LLM to produce new interactive UI experiences inside the conversation, guided by system prompts designed to improve the user experience. These include charts, video players, interactive forms, and other task-specific UI components.
+A chat experience that goes beyond traditional text-based AI by allowing the LLM to generate interactive UI components inside the conversation.
 
 ### Architecture
 
@@ -213,9 +217,13 @@ The tool layer can execute multiple calls concurrently while handling individual
 
 **Repository:** `test-ebay-price-items-sold--funko`
 
+### Target User
+
+Collectors and users interested in analyzing the Funko secondary market.
+
 ### Purpose
 
-A data-analysis application for users who want to track the secondary-market prices of Funko products and explore historical sales data through interactive tables, filters, statistics, and visualizations.
+An application for analyzing a specific secondary market through historical sales data, interactive tables, filters, statistics, and visualizations.
 
 ### Architecture
 
@@ -233,13 +241,13 @@ Full-stack web application with a data-analysis frontend and an external data pi
 
 **Repository:** `spotidisk`
 
+### Target User
+
+DJs who curate their music library through Spotify.
+
 ### Purpose
 
-A desktop application targeted at DJs who curate their music library on Spotify and want to obtain the corresponding audio files on their local computer.
-
-Users can process Spotify playlists and download their tracks to the local disk, using YouTube as the audio source. The application is designed to turn a playlist-based music collection managed on Spotify into a locally stored library of audio files.
-
-The application also manages potentially long-running download operations, providing progress tracking and job cancellation.
+A desktop application that turns a DJ's Spotify playlist workflow into a local audio-library workflow, with download progress and job cancellation.
 
 ### Architecture
 
@@ -295,9 +303,13 @@ Client-side developer library / registry package. No backend or database.
 
 **Repository:** `figma-plugins`
 
+### Target User
+
+Designers working with Figma Color Styles.
+
 ### Purpose
 
-A Figma plugin that lets designers duplicate an entire Color Style folder in one action, instead of manually recreating or copying the styles.
+A Figma plugin that removes a repetitive manual operation by duplicating an entire Color Style folder in one action.
 
 ### Architecture
 
@@ -315,9 +327,13 @@ Client-only Figma plugin. No external backend or database.
 
 **Repository:** `gradientor`
 
+### Target User
+
+Developers and designers who need to create CSS gradients.
+
 ### Purpose
 
-A visual tool for creating complex multi-layer CSS gradients without having to manually construct the CSS. Users can visually compose gradient layers and export the resulting CSS or CSS-in-JS.
+A visual tool that solves the practical problem of creating complex multi-layer CSS gradients without manually constructing the CSS.
 
 ### Architecture
 
