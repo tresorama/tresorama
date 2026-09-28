@@ -141,7 +141,7 @@ DJs who curate their music library through Spotify.
 
 ### Purpose
 
-Turn a DJ's Spotify playlist workflow into a local audio-library workflow, with download progress and job cancellation.
+A desktop app for DJs who organize their music on Spotify and need the corresponding tracks available as local audio files.
 
 ### Architecture
 
@@ -181,7 +181,7 @@ Users who want richer, task-specific AI experiences than a traditional text-only
 
 ### Purpose
 
-A chat experience where the LLM can generate interactive UI inside the conversation.
+An AI chat app designed to go beyond text responses by letting the AI create interactive interfaces such as charts, forms, and other task-specific UI.
 
 ### Architecture
 
@@ -224,7 +224,7 @@ Collectors and users interested in the Funko secondary market.
 
 ### Purpose
 
-Analyze a specific secondary market through historical sales data, interactive tables, filters, statistics, and visualizations.
+A data-analysis app for understanding Funko resale prices by exploring historical eBay sales, prices, and trends.
 
 ### Architecture
 
@@ -271,7 +271,7 @@ Designers working with Figma Color Styles.
 
 ### Purpose
 
-Remove a repetitive manual operation by duplicating an entire Color Style folder in one action.
+A Figma plugin that lets designers duplicate an entire Color Style folder in one action instead of recreating the styles manually.
 
 ### Architecture
 
@@ -295,7 +295,7 @@ Developers and designers who create CSS gradients.
 
 ### Purpose
 
-Create complex multi-layer CSS gradients visually instead of manually constructing the CSS.
+A visual CSS gradient generator that lets developers and designers build complex gradients visually and copy the resulting CSS.
 
 ### Architecture
 
