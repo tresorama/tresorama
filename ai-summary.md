@@ -241,6 +241,28 @@ Client-only SPA with no backend or database.
 
 ---
 
+# Open Source Contributions
+
+### ESLint
+
+Documentation upgrade.
+
+https://github.com/eslint/eslint/pull/19297
+
+### Local — Note Addon
+
+Added an edit feature to the Local "Note" addon.
+
+https://github.com/getflywheel/local-addon-notes/pull/29
+
+### Chakra UI
+
+Documentation upgrade.
+
+https://github.com/chakra-ui/chakra-ui-docs/pull/1062
+
+---
+
 # Additional Technical Experience
 
 ### Business Intelligence
@@ -351,24 +373,3 @@ Client-only SPA with no backend or database.
 - Google Apps Script / Google Sheets
 - Figma plugin development
 
----
-
-# Open Source Contributions
-
-### ESLint
-
-Documentation upgrade.
-
-https://github.com/eslint/eslint/pull/19297
-
-### Local — Note Addon
-
-Added an edit feature to the Local "Note" addon.
-
-https://github.com/getflywheel/local-addon-notes/pull/29
-
-### Chakra UI
-
-Documentation upgrade.
-
-https://github.com/chakra-ui/chakra-ui-docs/pull/1062
