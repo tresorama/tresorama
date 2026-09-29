@@ -1,0 +1,7 @@
+title: "Jacopo Marrone — Full-Stack Product Developer"
+description: "Full-stack product developer and software builder with a strong frontend background, particularly in React and TypeScript."
+markdown: kramdown
+kramdown:
+  input: GFM
+exclude:
+  - _site
