@@ -22,22 +22,22 @@
             Menu
             <span class="menu-chevron" aria-hidden="true">⌄</span>
           </button>
-
-          <div class="menu-panel" id="site-menu" hidden>
-            <ul>
-              {% assign pages = site.pages | sort: "path" %}
-              {% for nav_page in pages %}
-                {% if nav_page.name contains ".md" and nav_page.url != "/" %}
-                  <li>
-                    <a href="{{ nav_page.url | relative_url }}">{{ nav_page.title | default: nav_page.name | remove: ".md" }}</a>
-                  </li>
-                {% endif %}
-              {% endfor %}
-            </ul>
-          </div>
         </nav>
       </div>
     </header>
+
+    <div class="menu-panel" id="site-menu" hidden>
+      <ul>
+        {% assign pages = site.pages | sort: "path" %}
+        {% for nav_page in pages %}
+          {% if nav_page.name contains ".md" and nav_page.url != "/" %}
+            <li>
+              <a href="{{ nav_page.url | relative_url }}">{{ nav_page.title | default: nav_page.name | remove: ".md" }}</a>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
 
     <main class="site-shell">
       <article class="profile">
@@ -52,15 +52,27 @@
 
         if (!trigger || !panel) return;
 
+        const positionPanel = () => {
+          const rect = trigger.getBoundingClientRect();
+          panel.style.top = `${rect.bottom + 8}px`;
+          panel.style.right = `${Math.max(10, window.innerWidth - rect.right)}px`;
+        };
+
         const closeMenu = () => {
           trigger.setAttribute("aria-expanded", "false");
           panel.hidden = true;
         };
 
+        const openMenu = () => {
+          positionPanel();
+          trigger.setAttribute("aria-expanded", "true");
+          panel.hidden = false;
+        };
+
         trigger.addEventListener("click", () => {
           const isOpen = trigger.getAttribute("aria-expanded") === "true";
-          trigger.setAttribute("aria-expanded", String(!isOpen));
-          panel.hidden = isOpen;
+          if (isOpen) closeMenu();
+          else openMenu();
         });
 
         document.addEventListener("click", (event) => {
@@ -72,6 +84,18 @@
         document.addEventListener("keydown", (event) => {
           if (event.key === "Escape") closeMenu();
         });
+
+        window.addEventListener("resize", () => {
+          if (trigger.getAttribute("aria-expanded") === "true") {
+            positionPanel();
+          }
+        });
+
+        window.addEventListener("scroll", () => {
+          if (trigger.getAttribute("aria-expanded") === "true") {
+            positionPanel();
+          }
+        }, { passive: true });
       })();
     </script>
   </body>
