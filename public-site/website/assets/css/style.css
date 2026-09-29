@@ -95,8 +95,6 @@ li + li { margin-top: 0.3rem; }
   text-decoration: none;
 }
 
-.site-nav { position: relative; }
-
 .menu-trigger {
   display: inline-flex;
   align-items: center;
@@ -132,9 +130,8 @@ li + li { margin-top: 0.3rem; }
 }
 
 .menu-panel {
-  position: absolute;
-  right: 0;
-  top: calc(100% + 8px);
+  position: fixed;
+  z-index: 100;
   width: 240px;
   max-width: calc(100vw - 20px);
   padding: 6px;
@@ -183,13 +180,8 @@ li + li { margin-top: 0.3rem; }
     font-size: 0.9rem;
   }
 
-  /* Keep the mobile panel out of the header's layout entirely. */
   .menu-panel {
-    position: fixed;
-    top: 57px;
-    right: 10px;
     width: 240px;
-    max-width: calc(100vw - 20px);
     max-height: calc(100vh - 68px);
     overflow-y: auto;
   }
