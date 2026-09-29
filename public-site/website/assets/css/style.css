@@ -183,10 +183,14 @@ li + li { margin-top: 0.3rem; }
     font-size: 0.9rem;
   }
 
+  /* Keep the mobile panel out of the header's layout entirely. */
   .menu-panel {
-    right: 0;
+    position: fixed;
+    top: 57px;
+    right: 10px;
     width: 240px;
-    max-height: calc(100vh - 72px);
+    max-width: calc(100vw - 20px);
+    max-height: calc(100vh - 68px);
     overflow-y: auto;
   }
 
