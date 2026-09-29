@@ -12,21 +12,22 @@
       <div class="nav-shell">
         <a class="site-title" href="{{ '/' | relative_url }}">Jacopo Marrone</a>
 
-        <details class="site-nav">
-          <summary>Pages</summary>
-          <nav>
+        <nav class="site-nav" aria-label="Main navigation">
+          <a href="{{ '/' | relative_url }}">Home</a>
+          <details>
+            <summary>Menu</summary>
             <ul>
               {% assign pages = site.pages | sort: "path" %}
               {% for nav_page in pages %}
                 {% if nav_page.name contains ".md" and nav_page.url != "/" %}
                   <li>
-                    <a href="{{ nav_page.url | relative_url }}">{{ nav_page.title | default: nav_page.name }}</a>
+                    <a href="{{ nav_page.url | relative_url }}">{{ nav_page.title | default: nav_page.name | remove: ".md" }}</a>
                   </li>
                 {% endif %}
               {% endfor %}
             </ul>
-          </nav>
-        </details>
+          </details>
+        </nav>
       </div>
     </header>
 
