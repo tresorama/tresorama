@@ -8,6 +8,28 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
   </head>
   <body>
+    <header class="site-header">
+      <div class="nav-shell">
+        <a class="site-title" href="{{ '/' | relative_url }}">Jacopo Marrone</a>
+
+        <details class="site-nav">
+          <summary>Pages</summary>
+          <nav>
+            <ul>
+              {% assign pages = site.pages | sort: "path" %}
+              {% for nav_page in pages %}
+                {% if nav_page.name contains ".md" and nav_page.url != "/" %}
+                  <li>
+                    <a href="{{ nav_page.url | relative_url }}">{{ nav_page.title | default: nav_page.name }}</a>
+                  </li>
+                {% endif %}
+              {% endfor %}
+            </ul>
+          </nav>
+        </details>
+      </div>
+    </header>
+
     <main class="site-shell">
       <article class="profile">
         {{ content }}
