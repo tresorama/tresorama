@@ -177,7 +177,7 @@ Full-stack web application with an external data pipeline.
 
 ## shadcn-registry-ts
 
-![shadcn-registry-ts](https://github.com/user-attachments/assets/bb6af0c0-84cd-4841-b2f0-f3e7d1acd672)
+![shadcn-registry-ts](https://github.com/user-attachments/assets/bb6af0c0-84ad-46a8-9402-012881752ff7)
 
 **Repository:** `shadcn-registry-ts`
 
@@ -372,3 +372,4 @@ https://github.com/chakra-ui/chakra-ui-docs/pull/1062
 - n8n
 - Google Apps Script / Google Sheets
 - Figma plugin development
+
